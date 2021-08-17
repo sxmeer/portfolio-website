@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Sameer Yadav">
+  <meta name="description" content="Portfolio website of Sameer Yadav">
+  <title>SameerCodes</title>
+  <link rel="icon" type="image/svg" href="./images/hero-image.svg" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <nav id="home" class="navigation container">
+    <div class="container-center">
+      <div class="nav-brand-container">
+        <div class="nav-brand">SameerCodes</div>
+        <div class="toggle-container">
+          <input id="toggle" type="checkbox">
+          <label class="toggle-label" for="toggle"></label>
+        </div>
+      </div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline"><a class="link" href="#home">Home</a></li>
+        <li class="list-item-inline"><a class="link" href="#projects">Projects</a></li>
+        <li class="list-item-inline"><a class="link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <header class="hero container-center">
+    <img class="hero-img" src="../images/hero-image.svg" alt="" />
+    <h1 class="hero-heading">I am <span class="heading-inverted">Sameer Yadav</span>, an aspiring Web Developer.</h1>
+    <p class="hero-sub-heading">Courteous, Enthusiastic, and Task-driven
+      developer with 1.5+ years of experience in
+      Android development in TCS, looking for an
+      opportunity in front-end web
+      development using ReactJS.</p>
+  </header>
+
+  <section class="section ow container-center">
+    <h1>Technologies</h1>
+    <p>I have hands-on experience with HTML5, CSS3, SASS, ReactJS, Typescript. Also, I am familiar with Firebase,
+      NodeJS, Web Hosting. I have work experience in developing Android application using Java.</p>
+  </section>
+
+
+  <section id="projects" class="section container-center">
+    <h1>Projects</h1>
+    <div class="flex-container">
+      <div class="card">
+        <img src="./images/instagram-clone.JPG" alt="">
+        <h2 class="card-title">Instagram Clone</h2>
+        <div class="chip-container">
+          <div class="chip">ReactJS</div>
+          <div class="chip">Firebase</div>
+        </div>
+        <p class="card-description">Developed Instagram Clone using React and Firebase in which the
+          users can sign up, upload the photos, and comment on them.</p>
+        <div>
+          <a href="https://github.com/sxmeer/instagram-clone" target="_blank" class="link secondary-link"><i
+              class="fa fa-github"></i> Code</a>
+          <a href="https://instagram-clone-react-c7a8e.web.app" target="_blank" class="link primary-link"><i
+              class="fa fa-circle green-font"></i> Live</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./images/spotify-clone.JPG" alt="">
+        <h2 class="card-title">Spotify Clone</h2>
+        <div class="chip-container">
+          <div class="chip">ReactJS</div>
+          <div class="chip">SpotifyAPI</div>
+          <div class="chip">NodeJS</div>
+        </div>
+        <p class="card-description">Developed Spotify Clone using ReactJS and spotify-web-api-node
+          package, wherein users can sign in with their Spotify account, search
+          and listen to the songs.</p>
+        <div class="chip-container">
+          <div class="chip bg-warning">Not Responsive!</div>
+        </div>
+        <div>
+          <a href="https://github.com/sxmeer/music-server-client" target="_blank" class="link secondary-link"><i
+              class="fa fa-github"></i> Code</a>
+          <a href="https://music-player-app-dd145.web.app/" target="_blank" class="link primary-link"><i
+              class="fa fa-circle green-font"></i> Live</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./images/chat-clone.JPG" alt="">
+        <h2 class="card-title">Group Chat App</h2>
+        <div class="chip-container">
+          <div class="chip">ReactJS</div>
+          <div class="chip">Firebase</div>
+        </div>
+        <p class="card-description">Developed a Group Chat App using ReactJS that mimics
+          Whatsapp. Features included are users can sign in using google
+          login, create a group chat, join existing group chats with the
+          password and start chatting, leave the group chat.</p>
+        <div class="chip-container">
+          <div class="chip bg-warning">Not Responsive!</div>
+        </div>
+        <div>
+          <a href="https://github.com/sxmeer/chat-clone" target="_blank" class="link secondary-link"><i
+              class="fa fa-github"></i>
+            Code</a>
+          <a href="https://chat-clone-add4f.web.app" target="_blank" class="link primary-link"><i
+              class="fa fa-circle green-font"></i>
+            Live</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./images/covid-19-tracker.JPG" alt="">
+        <h2 class="card-title">Covid-19 Tracker</h2>
+        <div class="chip-container">
+          <div class="chip">ReactJS</div>
+          <div class="chip">API</div>
+          <div class="chip">MaterialUI</div>
+          <div class="chip">ChartJS</div>
+          <div class="chip">LeafletJS</div>
+        </div>
+        <p class="card-description">Developed a Covid-19 Tracker dashboard using ReactJS and open
+          APIs provided by disease.sh. It uses leaflet and chartjs library to show
+          the location and number of cases.</p>
+        <div>
+          <a href="https://github.com/sxmeer/covid-tracker-app" target="_blank" class="link secondary-link"><i
+              class="fa fa-github"></i> Code</a>
+          <a href="https://main--serene-bohr-794804.netlify.app/" target="_blank" class="link primary-link"><i
+              class="fa fa-circle green-font"></i> Live</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section container-center">
+    <h1>Front-end Mentor's Challenges</h1>
+    <div class="flex-container">
+      <div class="card">
+        <img src="./images/sunny-side-landing-page.JPG" alt="">
+        <h2 class="card-title">Sunnyside agency landing page</h2>
+        <div class="chip-container">
+          <div class="chip">HTML</div>
+          <div class="chip">CSS</div>
+          <div class="chip">SASS</div>
+        </div>
+        <div>
+          <a href="https://github.com/sxmeer/front-end-mentor-sunny-side-landing-page" target="_blank"
+            class="link secondary-link"><i class="fa fa-github"></i> Code</a>
+          <a href="https://front-end-mentor-sunny-side-landing-page.netlify.app/" target="_blank"
+            class="link primary-link"><i class="fa fa-circle green-font"></i> Live</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./images/ip-address-tracker.JPG" alt="">
+        <h2 class="card-title">IP Address Tracker</h2>
+        <div class="chip-container">
+          <div class="chip">ReactJS</div>
+          <div class="chip">Typescript</div>
+          <div class="chip">SASS</div>
+          <div class="chip">API</div>
+        </div>
+        <div>
+          <a href="https://github.com/sxmeer/front-end-mentor-ip-address-tracker" target="_blank"
+            class="link secondary-link"><i class="fa fa-github"></i> Code</a>
+          <a href="https://front-end-mentor-ip-address-tracker.netlify.app/" target="_blank"
+            class="link primary-link"><i class="fa fa-circle green-font"></i> Live</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./images/chat-app-illustration.JPG" alt="">
+        <h2 class="card-title">Chat app CSS illustration</h2>
+        <div class="chip-container">
+          <div class="chip">HTML</div>
+          <div class="chip">CSS</div>
+          <div class="chip">SASS</div>
+        </div>
+        <div>
+          <a href="https://github.com/sxmeer/front-end-mentor-chat-app-css-illustration" target="_blank"
+            class="link secondary-link"><i class="fa fa-github"></i> Code</a>
+          <a href="https://front-end-mentor-chat-app-css-illustration.netlify.app/" target="_blank"
+            class="link primary-link"><i class="fa fa-circle green-font"></i> Live</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./images/testimonials-grid-section.JPG" alt="">
+        <h2 class="card-title">Testimonials grid section</h2>
+        <div class="chip-container">
+          <div class="chip">HTML</div>
+          <div class="chip">CSS</div>
+          <div class="chip">SASS</div>
+        </div>
+        <div>
+          <a href="https://front-end-testimonials-grid-section.netlify.app/" target="_blank"
+            class="link secondary-link"><i class="fa fa-github"></i> Code</a>
+          <a href="https://github.com/sxmeer/front-end-mentor-testimonials-grid-section" target="_blank"
+            class="link primary-link"><i class="fa fa-circle green-font"></i> Live</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./images/base-apparel-coming-soon.JPG" alt="">
+        <h2 class="card-title">Base Apparel coming soon page</h2>
+        <div class="chip-container">
+          <div class="chip">HTML</div>
+          <div class="chip">CSS</div>
+          <div class="chip">SASS</div>
+          <div class="chip">JS</div>
+        </div>
+        <div>
+          <a href="https://github.com/sxmeer/front-end-mentor-base-apparel-coming-soon" target="_blank"
+            class="link secondary-link"><i class="fa fa-github"></i> Code</a>
+          <a href="https://front-end-mentor-base-apparel-coming-soon.netlify.app/" target="_blank"
+            class="link primary-link"><i class="fa fa-circle green-font"></i> Live</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./images/3-column-preview-card-component.JPG" alt="">
+        <h2 class="card-title">3-column preview card component</h2>
+        <div class="chip-container">
+          <div class="chip">HTML</div>
+          <div class="chip">CSS</div>
+          <div class="chip">SASS</div>
+        </div>
+        <div>
+          <a href="https://github.com/sxmeer/front-end-mentor-3-column-preview-card-component" target="_blank"
+            class="link secondary-link"><i class="fa fa-github"></i> Code</a>
+          <a href="https://front-end-mentor-3-column-preview-card-component.netlify.app/" target="_blank"
+            class="link primary-link"><i class="fa fa-circle green-font"></i> Live</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./images/stats-preview-card-component.JPG" alt="">
+        <h2 class="card-title">Stats preview card component</h2>
+        <div class="chip-container">
+          <div class="chip">HTML</div>
+          <div class="chip">CSS</div>
+          <div class="chip">SASS</div>
+        </div>
+        <div>
+          <a href="https://github.com/sxmeer/front-end-mentor-stats-preview-card-component" target="_blank"
+            class="link secondary-link"><i class="fa fa-github"></i> Code</a>
+          <a href="https://front-end-mentor-stats-preview-card-component.netlify.app/" target="_blank"
+            class="link primary-link"><i class="fa fa-circle green-font"></i> Live</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact" class="footer">
+    <div class="footer-header">Contact me</div>
+    <a href="mailto: sameeryadav2421@gmail.com" class="link"
+      style="margin-top: 1rem;display:inline-block;">sameeryadav2421@gmail.com</a>
+    <ul class="social-links list-non-bullet">
+      <li class="list-item-inline"><a class="link" href="https://github.com/sxmeer?tab=repositories" target="_blank"><i
+            class="fa fa-github fa-2x"></i></a></li>
+      <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/sameeryaadav/" target="_blank"><i
+            class="fa fa-linkedin fa-2x"></i></a></li>
+      <li class="list-item-inline"><a class="link" href="https://twitter.com/sameeryaadav" target="_blank"><i
+            class="fa fa-twitter fa-2x"></i></a></li>
+    </ul>
+  </footer>
+
+  <script>
+    (() => {
+      var isDarkMode = localStorage.getItem("isDarkMode");
+      if (isDarkMode === undefined) {
+        isDarkMode = false;
+      }
+      isDarkMode = JSON.parse(isDarkMode);
+      document.querySelector("body").id = isDarkMode ? "dark-body" : "light-body";
+      document.querySelector("#toggle").checked = isDarkMode;
+    })();
+    function onToggleHandler() {
+      var isChecked = this.checked;
+      localStorage.setItem("isDarkMode", isChecked);
+      document.querySelector("body").id = isChecked ? "dark-body" : "light-body";
+    }
+    document.querySelector("#toggle").addEventListener('change', onToggleHandler);
+  </script>
+</body>
+
+</html>
