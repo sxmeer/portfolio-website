@@ -3,12 +3,14 @@
 :root {
   --primary-color: #2563eb;
   --off-white: #f3f4f6;
+  --off-white-shadow: #9ca3af;
   --secondary-color: #9ca3af;
   --text-color-light: white;
   --text-color-dark: black;
   --background-color: #f9fafb;
 
   --dark-off-white: #191919;
+  --dark-off-white-shadow: #191919;
   --dark-background-color: black;
   --warning-color: #fcd34d;
   scroll-behavior: smooth;
@@ -185,6 +187,7 @@ hr {
   background-color: var(--off-white);
   border: 1.5px solid var(--off-white);
   border-radius: 0.5rem;
+  box-shadow: 0px 0px 1rem var(--off-white-shadow);
 }
 
 .card > div:last-child {
@@ -194,6 +197,7 @@ hr {
 #dark-body .card {
   background-color: var(--dark-off-white);
   border: 1.5px solid var(--dark-off-white);
+  box-shadow: 0px 0px 1rem var(--dark-off-white-shadow);
 }
 
 .card img {
@@ -276,6 +280,7 @@ hr {
 }
 
 .bg-warning {
+  color: var(--text-color-dark) !important;
   background-color: var(--warning-color) !important;
 }
 
