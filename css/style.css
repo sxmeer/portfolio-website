@@ -294,6 +294,13 @@ hr {
   color: var(--text-color-light);
   border-radius: 1rem;
 }
+.social-link {
+  transition: transform 0.2s linear;
+}
+.social-link:hover {
+  transform: scale(1.2);
+  color: black;
+}
 
 @media (max-width: 1020px) {
   .container-center {
